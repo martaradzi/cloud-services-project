@@ -1,0 +1,2 @@
+A patient needs an appointment with a doctor. He/she requests an appointment to a specific doctor through a web interface.
+An administrator will analyse upcoming requests and
