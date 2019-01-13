@@ -8,5 +8,5 @@ The clinic manager processes requests (or changes) of appointments by checking a
 
 Doctor
 The doctor can retrieve the appointments associated with him/her.
-The patient can request changes to processed appointments.
-The patient can cancel appointments.
+The doctor can request changes to processed appointments.
+The doctor can cancel appointments.
