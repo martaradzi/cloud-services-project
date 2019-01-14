@@ -1,0 +1,38 @@
+{
+  "name": "InsurancePolicy",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "nameCompany": {
+      "type": "string",
+      "required": true
+    },
+    "address": {
+      "type": "string",
+      "required": true
+    },
+    "phoneNumber": {
+      "type": "number",
+      "required": true
+    },
+    "email": {
+      "type": "string",
+      "required": false
+    },
+    "expirationDate": {
+      "type": "date",
+      "required": true
+    },
+    "policyNumber": {
+      "type": "number",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
