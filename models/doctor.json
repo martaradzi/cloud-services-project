@@ -1,25 +1,21 @@
 {
-  "name": "Schedule",
-  "base": "PersistedModel",
+  "name": "Doctor",
+  "base": "User",
   "idInjection": true,
   "options": {
     "validateUpsert": true
   },
   "properties": {
-    "doctorID": {
-      "type": "number",
+    "name": {
+      "type": "string",
       "required": true
     },
-    "startTime": {
-      "type": "date",
+    "speciality": {
+      "type": "string",
       "required": true
     },
-    "endTime": {
-      "type": "date",
-      "required": true
-    },
-    "date": {
-      "type": "date",
+    "medicalLicense": {
+      "type": "string",
       "required": true
     }
   },

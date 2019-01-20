@@ -10,24 +10,24 @@
       "type": "date",
       "required": true
     },
-    "time": {
-      "type": "number",
-      "required": true
-    },
-    "patient": {
-      "type": "object",
-      "required": true
-    },
-    "doctor": {
-      "type": "object",
-      "required": true
-    },
     "description": {
       "type": "string",
       "required": true
     },
+    "doctorID": {
+      "type": "number",
+      "required": true
+    },
+    "patientID": {
+      "type": "number",
+      "required": true
+    },
     "status": {
       "type": "string",
+      "required": true
+    },
+    "scheduleID": {
+      "type": "number",
       "required": true
     }
   },

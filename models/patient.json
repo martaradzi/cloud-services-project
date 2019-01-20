@@ -1,24 +1,21 @@
 {
-  "name": "InsurancePolicy",
-  "base": "PersistedModel",
+  "name": "Patient",
+  "base": "User",
   "idInjection": true,
   "options": {
     "validateUpsert": true
   },
   "properties": {
-    "address": {
+    "name": {
       "type": "string",
-      "required": true
+      "required": true,
+      "description": "First and Last name"
     },
-    "email": {
-      "type": "string",
-      "required": false
-    },
-    "expirationDate": {
+    "dateOfBirth": {
       "type": "date",
       "required": true
     },
-    "nameCompany": {
+    "gender": {
       "type": "string",
       "required": true
     },
@@ -26,9 +23,13 @@
       "type": "string",
       "required": true
     },
-    "policyNumber": {
+    "email": {
+      "type": "string",
+      "required": false
+    },
+    "insurancePolicyID": {
       "type": "number",
-      "required": true
+      "required": false
     }
   },
   "validations": [],
